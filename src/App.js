@@ -18,7 +18,7 @@ function App() {
       });
     };
     start();
-  });
+  }, []);
   return (
     <div className="App">
       <NavBar />
